@@ -15,10 +15,9 @@ public class GuessTheNumber {
                 System.out.println("Podana liczba jest za duża");
             } else if (number%3!=0) {
                 System.out.println("Liczba nie jest podzielna przez 3");
-            } else {
-                //nic nie robimy
             }
         } while(number<100 || number>200 || number%3!=0); //
+        scanner.close();
         System.out.println("Twoja liczba jest ok");
     }
 }

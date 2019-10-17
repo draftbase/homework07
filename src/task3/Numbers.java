@@ -9,7 +9,7 @@ public class Numbers {
             System.out.printf("%1.1f, ", n);
             n += 0.1;
         }
-        System.out.println("");
+        System.out.println(""); //to tylko po to aby nie wycinać wersji 1
         //wersja2
         double m = 0;
         do {

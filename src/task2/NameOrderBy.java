@@ -12,10 +12,10 @@ public class NameOrderBy {
             tab[i] = scanner.nextLine();
             i++;
         }
+        scanner.close();
 
-        for(;i>0;){
-            i--;
-            System.out.println("Cześć " + tab[i]);
+        for(;i>0;i--){
+            System.out.println("Cześć " + tab[i-1]);
         }
 
     }

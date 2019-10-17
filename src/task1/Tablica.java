@@ -13,6 +13,7 @@ public class Tablica {
             tab[i] = scanner.nextInt();
             i++;
         }
+        scanner.close();
 
         int suma = 0;
         for(int j = 0; j <= tab.length; j++) {
